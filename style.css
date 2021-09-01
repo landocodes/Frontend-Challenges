@@ -1,0 +1,128 @@
+body{
+  color: hsl(224, 23%, 55%);
+  font-family: 'Red Hat Display', sans-serif; 
+  font-size: 16px;
+  min-height: 100vh;
+}
+
+.bg{
+    min-height: 100vh;
+    background-image: url(Pattern-background-mobile.svg);
+    background-color: hsl(233,81.8%,97.8%);
+    display: flex;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+
+.container{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 20px;
+    margin: 20px;
+    background-color: white; 
+    padding: auto;
+    align-items: center;
+    width: auto;
+}
+
+.container .hero{
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+
+.body{
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h4{
+    color: rgb(30,47,87);
+}
+
+.price{
+    background-color: hsl(225, 100%, 98%);
+    margin: 0 20px 0px 20px;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.price img{
+    margin-right: 1rem;
+}
+
+.fees{
+    margin-right: auto;
+}
+
+.fees h4{
+    margin-bottom: 0%;
+}
+
+.fees p{
+    margin-top: 0%;
+    
+}
+
+.price a{
+    float: inline-end;
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+
+  button{
+  margin: 20px 20px 10px 20px;
+  padding: 16px;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 700;
+  border: none;
+  width: 90%;
+  border-radius: 12px; 
+}
+
+.btn1{
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: 5px 10px 18px #888888;
+    color: white; 
+ 
+}
+
+.btn2{
+    background-color: transparent;
+    border-radius: 12px;
+    color: hsl(224, 23%, 55%);
+    
+}
+
+.btn1:hover{
+    background-color: rgb(72, 57, 158);
+}
+
+.btn2:hover{
+    color: rgb(30,47,87);
+}
+
+@media screen and (min-width: 768px) {
+    .bg{
+        background-image: url(pattern-background-desktop.svg);
+        background-color: hsl(225, 100%, 93.9%);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: 0rem -5rem;
+    }
+
+    .container{
+        margin: 20px auto 20px auto;
+        width: 40%;
+    }
+}
+
+.attribution { font-size: 11px; text-align: center;}
+.attribution a { color: hsl(228, 45%, 44%); }
